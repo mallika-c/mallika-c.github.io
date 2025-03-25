@@ -1,10 +1,10 @@
 import aboutStyles from '../styles/About.module.css';
 import Image from 'next/image';
 
-const aboutData = ['Aravind', 'Software Engineer', 'Full Stack Developer'];
+const aboutData = ['Mallika Choudhari', 'Data Analyst Engineer', 'Business Analyst'];
 
 const whatAmI =
-  "I find joy in solving problems, whether it is working through a chess puzzle or crafting an algorithm to do the same.";
+  "I enjoy transforming complex data into clear, actionable insights there’s something genuinely rewarding about bringing structure to the chaos."
 
 export default function About() {
   return (

@@ -13,7 +13,7 @@ const navbarData = [
     text: 'About'
   },
   {
-    href: '#project',
+    href: '#projects',
     text: 'Projects'
   },
   {
@@ -106,7 +106,7 @@ export default function Navbar() {
             className={`navbar-brand ${navStyles['navbar-brand']}`}
             href="/"
           >
-            Aravind
+            Mallika
           </Link>
 
           <Contact />

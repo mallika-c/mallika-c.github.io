@@ -1,121 +1,229 @@
 import skillStyles from '../styles/Skill.module.css';
 
+// const skillData = [
+//   {
+//     title: 'Programming Languages',
+//     data: [
+//       {
+//         name: 'JavaScript',
+//         percentage: '85%',
+//         value: 85
+//       },
+//       {
+//         name: 'HTML/CSS',
+//         percentage: '80%',
+//         value: 80
+//       },
+//       {
+//         name: 'Java',
+//         percentage: '70%',
+//         value: 70
+//       },
+//       {
+//         name: 'TypeScript',
+//         percentage: '60%',
+//         value: 60
+//       },
+//       {
+//         name: 'C++',
+//         percentage: '50%',
+//         value: 50
+//       }
+//     ]
+//   },
+//   {
+//     title: 'Frameworks',
+//     data: [
+//       {
+//         name: 'Node.js',
+//         percentage: '80%',
+//         value: 80
+//       },
+//       {
+//         name: 'React.js',
+//         percentage: '75%',
+//         value: 75
+//       },
+//       {
+//         name: 'Next.js',
+//         percentage: '70%',
+//         value: 70
+//       },
+//       {
+//         name: 'Spring Boot',
+//         percentage: '60%',
+//         value: 60
+//       },
+//       {
+//         name: 'Material UI',
+//         percentage: '50%',
+//         value: 50
+//       }
+//     ]
+//   },
+//   {
+//     title: 'DevOps Tools',
+//     data: [
+//       {
+//         name: 'Git',
+//         percentage: '90%',
+//         value: 90
+//       },
+//       {
+//         name: 'AWS',
+//         percentage: '75%',
+//         value: 75
+//       },
+//       {
+//         name: 'Jenkins',
+//         percentage: '70%',
+//         value: 70
+//       },
+//       {
+//         name: 'Docker',
+//         percentage: '65%',
+//         value: 65
+//       },
+//       {
+//         name: 'Chef Infra',
+//         percentage: '50%',
+//         value: 50
+//       }
+//     ]
+//   },
+//   {
+//     title: 'Databases',
+//     data: [
+//       {
+//         name: 'MySQL',
+//         percentage: '80%',
+//         value: 80
+//       },
+//       {
+//         name: 'MongoDB',
+//         percentage: '75%',
+//         value: 75
+//       },
+//       {
+//         name: 'Redis',
+//         percentage: '70%',
+//         value: 70
+//       },
+//       {
+//         name: 'AWS DynamoDB',
+//         percentage: '65%',
+//         value: 65
+//       }
+//     ]
+//   }
+// ];
+
 const skillData = [
   {
-    title: 'Programming Languages',
+    title: 'Programming Languages and Frameworks',
     data: [
       {
-        name: 'JavaScript',
+        name: 'Python',
         percentage: '85%',
         value: 85
       },
       {
-        name: 'HTML/CSS',
+        name: 'SQL',
         percentage: '80%',
         value: 80
       },
       {
-        name: 'Java',
+        name: 'PySpark',
         percentage: '70%',
         value: 70
       },
       {
-        name: 'TypeScript',
+        name: 'Azure Data Factory',
         percentage: '60%',
         value: 60
-      },
-      {
-        name: 'C++',
-        percentage: '50%',
-        value: 50
       }
     ]
   },
   {
-    title: 'Frameworks',
+    title: 'Tools',
     data: [
       {
-        name: 'Node.js',
+        name: 'Power BI',
         percentage: '80%',
         value: 80
       },
       {
-        name: 'React.js',
+        name: 'Tableau',
         percentage: '75%',
         value: 75
       },
       {
-        name: 'Next.js',
+        name: 'Jupyter',
         percentage: '70%',
         value: 70
       },
       {
-        name: 'Spring Boot',
+        name: 'Jira',
         percentage: '60%',
         value: 60
-      },
-      {
-        name: 'Material UI',
-        percentage: '50%',
-        value: 50
       }
     ]
   },
-  {
-    title: 'DevOps Tools',
-    data: [
-      {
-        name: 'Git',
-        percentage: '90%',
-        value: 90
-      },
-      {
-        name: 'AWS',
-        percentage: '75%',
-        value: 75
-      },
-      {
-        name: 'Jenkins',
-        percentage: '70%',
-        value: 70
-      },
-      {
-        name: 'Docker',
-        percentage: '65%',
-        value: 65
-      },
-      {
-        name: 'Chef Infra',
-        percentage: '50%',
-        value: 50
-      }
-    ]
-  },
-  {
-    title: 'Databases',
-    data: [
-      {
-        name: 'MySQL',
-        percentage: '80%',
-        value: 80
-      },
-      {
-        name: 'MongoDB',
-        percentage: '75%',
-        value: 75
-      },
-      {
-        name: 'Redis',
-        percentage: '70%',
-        value: 70
-      },
-      {
-        name: 'AWS DynamoDB',
-        percentage: '65%',
-        value: 65
-      }
-    ]
-  }
+  // {
+  //   title: 'DevOps Tools',
+  //   data: [
+  //     {
+  //       name: 'Git',
+  //       percentage: '90%',
+  //       value: 90
+  //     },
+  //     {
+  //       name: 'AWS',
+  //       percentage: '75%',
+  //       value: 75
+  //     },
+  //     {
+  //       name: 'Jenkins',
+  //       percentage: '70%',
+  //       value: 70
+  //     },
+  //     {
+  //       name: 'Docker',
+  //       percentage: '65%',
+  //       value: 65
+  //     },
+  //     {
+  //       name: 'Chef Infra',
+  //       percentage: '50%',
+  //       value: 50
+  //     }
+  //   ]
+  // },
+  // {
+  //   title: 'Databases',
+  //   data: [
+  //     {
+  //       name: 'MySQL',
+  //       percentage: '80%',
+  //       value: 80
+  //     },
+  //     {
+  //       name: 'MongoDB',
+  //       percentage: '75%',
+  //       value: 75
+  //     },
+  //     {
+  //       name: 'Redis',
+  //       percentage: '70%',
+  //       value: 70
+  //     },
+  //     {
+  //       name: 'AWS DynamoDB',
+  //       percentage: '65%',
+  //       value: 65
+  //     }
+  //   ]
+  // }
 ];
 
 export default function Skills() {
@@ -124,7 +232,8 @@ export default function Skills() {
       <div className="container">
         <div className="row">
           <div className="col-lg-12 text-center py-5">
-            <h2>Bag of Tricks</h2>
+            {/* <h2>Bag of Tricks</h2> */}
+            <h2>Skills</h2>
           </div>
 
           {skillData.map((skill, index) => (

@@ -1,12 +1,13 @@
-import { About, Project, Resume, Skill } from '@/components';
+import { About, Project, Resume, Skill, Projects } from '@/components';
 
 export default function Home() {
   return (
     <>
       <About />
-      <Project />
+      {/* <Project /> */}
       <Resume />
       <Skill />
+      <Projects />
     </>
   );
 }
