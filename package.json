@@ -2,7 +2,7 @@
   "name": "portfolio",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://mallika-c.github.io",
+  "homepage": "https://mallika-c.github.io/mallika-c.github.io",
   "scripts": {
     "dev": "next dev",
     "build": "next build",
